@@ -16,5 +16,10 @@ console.log(broKo);
 console.log(broKo.info())
 
 function addBookToLibrary() {
-    
+    // get the inputs from the form and push them to the array
+    myLibrary.push(broKo)
 };
+
+addBookToLibrary();
+
+console.log(myLibrary);

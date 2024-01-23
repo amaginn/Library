@@ -7,7 +7,72 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div id="left-container">
+        <form id="form-container">
+            <legend><h2>Library</h2></legend>
+            <div id="title">
+                <label for="title"></label>
+                <input type="text" name="title" id="title" placeholder=
+                "Book itle" 
+                required>
+                <div></div>
+            </div>
+            <div id="author">
+                <label for="author"></label>
+                <input type="text" name="author" id="author" placeholder=
+                "Author" 
+                required>
+                <div></div>
+            </div>
+            <div id="pages"></label>
+                <input type="text" name="pages" id="pages" placeholder=
+                "Page Number" 
+                required>
+                <div></div>
+            </div>
+            <div id="read">
+                <input type="checkbox" id="read" name="read" value="read" placeholder=
+                "*PHONE (***-***-****)" 
+                required>
+                <label for="read">Have you read this book?</label>
+                <div></div>
+            </div>
+            <div id="btn">
+                <Button type="submit" id="submit-btn">
+                    Add to your library
+                </Button>
+            </div>
+        </form>
+    </div>
+    <div id="table-container">
+        <table id="books-list">
+            <thead id="column-titles">
+                <tr>
+                    <td>Title</td>
+                    <td>Author</td>
+                    <td>Pages</td>
+                    <td>Read?</td>
+                    <td>Delete?</td>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr>
+                    <td>Summa</td>
+                    <td>Aquinas</td>
+                    <td>1200</td>
+                    <td>Check</td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>Confessions</td>
+                    <td>Augustine</td>
+                    <td>500</td>
+                    <td>Check</td>
+                    <td>Delete</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
