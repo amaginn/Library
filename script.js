@@ -1,17 +1,3 @@
-
-
-const myLibrary = [];
-
-// function Book(title, author, pages, read) {
-//     this.title = title;
-//     this.author = author;
-//     this.pages = pages;
-//     this.read = read;
-//     this.info = function() {
-//       return `${this.title}, ${this.author}, ${this.pages}, ${this.read}`
-//     }
-//   };
-
 let button = document.querySelector('#btn');
 button.addEventListener('click', function(event) {
     event.preventDefault();
@@ -55,5 +41,3 @@ function addBookToLibrary(title, author, pages, read) {
     // Append the row to the table body
     document.getElementById('table-body').appendChild(row);
 };
-
-button.addEventListener('click', addBookToLibrary())
